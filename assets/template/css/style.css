@@ -852,7 +852,7 @@ h5 {
 }
 .nav > li > a {
   color: #000;
-  font-weight: 600;
+  font-weight: 400;
   padding: 14px 20px 14px 25px;
   display: block;
 }
@@ -870,6 +870,7 @@ h5 {
 }
 .nav > li.active > a {
   color: #000;
+  font-weight: bold;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus {
@@ -1016,11 +1017,12 @@ h5 {
 .pace-done .nav-header {
   transition: all 0.4s;
 }
-ul.nav-second-level {
+ul.nav-second-level,
+ul.nav-third-level {
   background: #dcdcdc;
 }
 .nav > li.active {
-  border-left: 4px solid #fff;
+  border-left: 4px solid #f3f3f4;
   background: #293846;
 }
 .nav.nav-second-level > li.active {
@@ -1137,7 +1139,7 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
   position: absolute;
   left: 70px;
   top: 0;
-  background-color: #2f4050;
+  background-color: #dcdcdc;
   padding: 10px 10px 10px 10px;
   font-size: 12px;
 }
@@ -1292,7 +1294,7 @@ body.canvas-menu .logo-element {
 }
 body.mini-navbar .nav-header {
   padding: 0;
-  background-color: #42b549;
+  background-color: #146b37;
 }
 body.canvas-menu .nav-header {
   padding: 33px 25px;
@@ -1329,7 +1331,7 @@ body.fixed-sidebar.mini-navbar #page-wrapper {
   width: 100%;
 }
 body.body-small.fixed-sidebar.mini-navbar #page-wrapper {
-  margin: 0 0 0 220px;
+  /*margin: 0 0 0 220px;*/
 }
 body.body-small.fixed-sidebar.mini-navbar .navbar-static-side {
   width: 220px;
@@ -1571,22 +1573,22 @@ button:focus {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus {
-  background-color: #18a689;
-  border-color: #18a689;
+  background-color: #42b549;
+  border-color: #42b549;
   color: #FFFFFF;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #18a689;
-  border-color: #18a689;
+  background-color: #42b549;
+  border-color: #42b549;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #18a689;
-  border-color: #18a689;
+  background-color: #42b549;
+  border-color: #42b549;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,

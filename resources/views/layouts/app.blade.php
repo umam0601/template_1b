@@ -27,7 +27,7 @@
                     @include('layouts.partials._header')
                 </nav>
             </div>
-
+            <div class="bg-mini-content" style="display: none;"></div>
             <div class="wrapper wrapper-content">
                 @yield('content')
             </div>

@@ -13,6 +13,9 @@
 <!-- Data Table -->
 	<link href="{{asset('assets/template/css/plugins/dataTables/datatables.min.css')}}" rel="stylesheet">
 
+<!-- Select 2 -->
+    <link href="{{asset('assets/template/css/plugins/select2/select2.min.css')}}" rel="stylesheet">
+
 <!-- Animate -->
 	<link href="{{asset('assets/template/css/animate.css')}}" rel="stylesheet">
 
@@ -28,30 +31,39 @@
 			padding-bottom: 3px;
 			height: 55px;
 		}
-    .navbar-header > .brand-logo > img{
-    	height: 50px !important;
-    }
+        
+        .navbar-header > .brand-logo > img{
+        	height: 50px !important;
+        }
 
-    .navbar-default .nav > li.active,
-    .navbar-default .nav > li.active > ul > li > a:hover {
-    	background: #f3f3f4;
-    	color: #000;
-    }
+        .navbar-default .nav > li.active,
+        .navbar-default .nav > li.active > ul > li > a:hover {
+        	background: #f3f3f4;
+        	color: #000;
+        }
 
-    .profile-element {
-    	text-align: center;
-    }
+        .profile-element {
+        	text-align: center;
+        }
 
-    .menu-icon {
-    	color: #42b549 !important;
-    }
+        .menu-icon {
+        	color: #42b549 !important;
+        }
 
-    @media(max-width: 992px){
-    	.brand-logo-img{
-    		display: none !important;
-    	}
-    	.navbar-minimalize{
-    		display: block !important;
-    	}
-    }
+        .bg-mini-content {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: #00000061;
+            z-index: 9;
+        }
+
+        @media(max-width: 992px){
+        	.brand-logo-img{
+        		display: none !important;
+        	}
+        	.navbar-minimalize{
+        		display: block !important;
+        	}
+        }
 	</style>

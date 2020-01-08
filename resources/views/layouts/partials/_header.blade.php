@@ -1,6 +1,8 @@
 <div class="navbar-header">
     <div class="brand-logo">
-        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary d-none" href="#"><i class="fa fa-bars"></i> </a>
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary d-none" href="#">
+            <i class="fa fa-bars"></i>
+        </a>
         <img src="{{asset('assets/template/img/project/brand-logo.png')}}" alt="" class="brand-logo-img">
     </div>
     {{-- <form role="search" class="navbar-form-custom" action="search_results.html">
@@ -11,7 +13,7 @@
 </div>
 <ul class="nav navbar-top-links navbar-right">
     <li>
-        <span class="m-r-sm text-muted welcome-message">Welcome to INSPINIA+ Admin Theme.</span>
+        <span class="m-r-sm text-muted welcome-message">ADEV Natural Indonesia</span>
     </li>
     <li class="dropdown">
         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
@@ -110,11 +112,11 @@
     </li>
 
 
-    <li>
+    {{-- <li>
         <a href="login.html">
             <i class="fas fa-sign-out-alt"></i> Log out
         </a>
-    </li>
+    </li> --}}
     {{-- <li>
         <a class="right-sidebar-toggle">
             <i class="fa fa-tasks"></i>
